@@ -1,0 +1,1015 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_8t1DINDzEeyhVr5EEfl8yQ" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_Cd8AkND0EeyhVr5EEfl8yQ" type="Class_Shape" fontName="Times New Roman" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8PgS8ND0EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PgS8dD0EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PlygdD0EeyhVr5EEfl8yQ" key="bold" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PqrAdD0EeyhVr5EEfl8yQ" key="italic" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PwKkND0EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NeXLoND1EeyhVr5EEfl8yQ" key="fillColor" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_CeGYoND0EeyhVr5EEfl8yQ" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_CeG_sND0EeyhVr5EEfl8yQ" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_CeHmwND0EeyhVr5EEfl8yQ" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_CeHmwdD0EeyhVr5EEfl8yQ" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_HagBMND0EeyhVr5EEfl8yQ" type="Property_ClassAttributeLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8PedwND0EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PedwdD0EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PkkYtD0EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PqD8ND0EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PvjgND0EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Property" href="OOP2022_a20samul_a20sarle_project.uml#_CaqDEND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HagBMdD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_HakSoND0EeyhVr5EEfl8yQ" type="Property_ClassAttributeLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8PfE0ND0EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PfE0dD0EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PlLcND0EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PqD8dD0EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PvjgdD0EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Property" href="OOP2022_a20samul_a20sarle_project.uml#_CattcND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HakSodD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_HalgwND0EeyhVr5EEfl8yQ" type="Property_ClassAttributeLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8Pfr4ND0EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8Pfr4dD0EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PlygND0EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PqrAND0EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PvjgtD0EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Property" href="OOP2022_a20samul_a20sarle_project.uml#_CawwwND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HalgwdD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Hamu4ND0EeyhVr5EEfl8yQ" type="Property_ClassAttributeLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdXW8tD1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdXW89D1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdertND1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdkLRdD1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idpq2dD1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Property" href="OOP2022_a20samul_a20sarle_project.uml#_Ca0bIND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Hamu4dD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_HamH0ND0EeyhVr5EEfl8yQ" type="Property_ClassAttributeLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdXW8ND1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdXW8dD1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Iders9D1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdkLRND1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idpq2ND1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Property" href="OOP2022_a20samul_a20sarle_project.uml#_Cayl8ND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HamH0dD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Hamu4tD0EeyhVr5EEfl8yQ" type="Property_ClassAttributeLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdXW9ND1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdXW9dD1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdertdD1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdkyUND1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idpq2tD1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Property" href="OOP2022_a20samul_a20sarle_project.uml#_Ca2QUND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Hamu49D0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_HanV8ND0EeyhVr5EEfl8yQ" type="Property_ClassAttributeLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdX-CND1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdX-CdD1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdfSxND1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdlZYND1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdqR5ND1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Property" href="OOP2022_a20samul_a20sarle_project.uml#_Ca56sND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HanV8dD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_HanV8tD0EeyhVr5EEfl8yQ" type="Property_ClassAttributeLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdX-BtD1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdX-B9D1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdfSw9D1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdkyVND1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdqR49D1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Property" href="OOP2022_a20samul_a20sarle_project.uml#_Ca9lEND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HanV89D0EeyhVr5EEfl8yQ"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_CeHmwtD0EeyhVr5EEfl8yQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_CeHmw9D0EeyhVr5EEfl8yQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_CeHmxND0EeyhVr5EEfl8yQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CeHmxdD0EeyhVr5EEfl8yQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_CeHmxtD0EeyhVr5EEfl8yQ" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_Han9AND0EeyhVr5EEfl8yQ" type="Operation_ClassOperationLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdX-BND1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdX-BdD1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdfSwtD1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdkyU9D1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdqR4tD1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Operation" href="OOP2022_a20samul_a20sarle_project.uml#_CbBPcND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Han9AdD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Han9AtD0EeyhVr5EEfl8yQ" type="Operation_ClassOperationLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdX-AtD1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdX-A9D1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdfSwdD1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdkyUtD1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdqR4dD1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Operation" href="OOP2022_a20samul_a20sarle_project.uml#_CbRuIND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Han9A9D0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_HaokEND0EeyhVr5EEfl8yQ" type="Operation_ClassOperationLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdX-AND1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdX-AdD1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdfSwND1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdkyUdD1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdqR4ND1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Operation" href="OOP2022_a20samul_a20sarle_project.uml#_CbWmoND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HaokEdD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_HaokEtD0EeyhVr5EEfl8yQ" type="Operation_ClassOperationLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdYlEND1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdYlEdD1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdfSxdD1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdlZYdD1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdqR5dD1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Operation" href="OOP2022_a20samul_a20sarle_project.uml#_CbYb0ND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HaokE9D0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_HapLIND0EeyhVr5EEfl8yQ" type="Operation_ClassOperationLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdYlEtD1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdZMIND1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdfSxtD1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdlZYtD1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdqR5tD1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Operation" href="OOP2022_a20samul_a20sarle_project.uml#_CbdUUND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HapLIdD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_HapLItD0EeyhVr5EEfl8yQ" type="Operation_ClassOperationLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdZMIdD1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdZMItD1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idf50ND1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdlZY9D1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdqR59D1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Operation" href="OOP2022_a20samul_a20sarle_project.uml#_Cbja8ND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HapLI9D0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_HapyMND0EeyhVr5EEfl8yQ" type="Operation_ClassOperationLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdZMI9D1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdZMJND1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idf50dD1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdlZZND1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idq48ND1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Operation" href="OOP2022_a20samul_a20sarle_project.uml#_CbmeQND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HapyMdD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_HapyMtD0EeyhVr5EEfl8yQ" type="Operation_ClassOperationLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdZMJdD1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdZMJtD1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idf50tD1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdlZZdD1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idq48dD1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Operation" href="OOP2022_a20samul_a20sarle_project.uml#_CbvBIND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HapyM9D0EeyhVr5EEfl8yQ"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_CeHmx9D0EeyhVr5EEfl8yQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_CeHmyND0EeyhVr5EEfl8yQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_CeHmydD0EeyhVr5EEfl8yQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CeHmytD0EeyhVr5EEfl8yQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_CeHmy9D0EeyhVr5EEfl8yQ" type="Class_NestedClassifierCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_HapyNND0EeyhVr5EEfl8yQ" type="Class_ClassNestedClassifierLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdZMJ9D1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdZMKND1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idf509D1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdlZZtD1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idq48tD1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:OpaqueBehavior" href="OOP2022_a20samul_a20sarle_project.uml#_CbOq0ND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HapyNdD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_HarAUND0EeyhVr5EEfl8yQ" type="Class_ClassNestedClassifierLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdZMKdD1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdZMKtD1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idf51ND1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdmAcND1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idq489D1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:OpaqueBehavior" href="OOP2022_a20samul_a20sarle_project.uml#_CbUxcND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HarAUdD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_HarAUtD0EeyhVr5EEfl8yQ" type="Class_ClassNestedClassifierLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdZMK9D1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdZMLND1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idf51dD1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdmAcdD1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idq49ND1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:OpaqueBehavior" href="OOP2022_a20samul_a20sarle_project.uml#_CbXNsND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HarAU9D0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_HarAVND0EeyhVr5EEfl8yQ" type="Class_ClassNestedClassifierLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdZMLdD1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdZMLtD1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idgg4ND1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdmActD1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idq49dD1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:OpaqueBehavior" href="OOP2022_a20samul_a20sarle_project.uml#_CbbfIND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HarAVdD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_HarnYND0EeyhVr5EEfl8yQ" type="Class_ClassNestedClassifierLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdZML9D1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdZzMND1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idgg4dD1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdmAc9D1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idq49tD1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:OpaqueBehavior" href="OOP2022_a20samul_a20sarle_project.uml#_CbhlwND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HarnYdD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_HarnYtD0EeyhVr5EEfl8yQ" type="Class_ClassNestedClassifierLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdZzMdD1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdZzMtD1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idgg4tD1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdmAdND1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdrgAND1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:OpaqueBehavior" href="OOP2022_a20samul_a20sarle_project.uml#_CblQIND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HarnY9D0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_HarnZND0EeyhVr5EEfl8yQ" type="Class_ClassNestedClassifierLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdZzM9D1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdZzNND1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idgg49D1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdmAddD1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdrgAdD1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:OpaqueBehavior" href="OOP2022_a20samul_a20sarle_project.uml#_CboTcND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HarnZdD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_HarnZtD0EeyhVr5EEfl8yQ" type="Class_ClassNestedClassifierLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdZzNdD1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdZzNtD1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idgg5ND1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdmAdtD1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdrgAtD1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:OpaqueBehavior" href="OOP2022_a20samul_a20sarle_project.uml#_Cbw2UND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HarnZ9D0EeyhVr5EEfl8yQ"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_CeHmzND0EeyhVr5EEfl8yQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_CeHmzdD0EeyhVr5EEfl8yQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_CeHmztD0EeyhVr5EEfl8yQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CeHmz9D0EeyhVr5EEfl8yQ"/>
+    </children>
+    <element xmi:type="uml:Class" href="OOP2022_a20samul_a20sarle_project.uml#_CaPMUND0EeyhVr5EEfl8yQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Cd8AkdD0EeyhVr5EEfl8yQ" x="400" y="1080"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_CeHm0ND0EeyhVr5EEfl8yQ" type="Class_Shape" fontName="Times New Roman" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdaaQND1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdaaQdD1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idgg5tD1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdnOkND1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdrgBND1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NeXysND1EeyhVr5EEfl8yQ" key="fillColor" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_CeHm0tD0EeyhVr5EEfl8yQ" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_CeHm09D0EeyhVr5EEfl8yQ" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_CeHm1ND0EeyhVr5EEfl8yQ" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_CeHm1dD0EeyhVr5EEfl8yQ" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_Ha0KQND0EeyhVr5EEfl8yQ" type="Property_ClassAttributeLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdZzN9D1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdZzOND1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idgg5dD1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdmAd9D1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdrgA9D1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Property" href="OOP2022_a20samul_a20sarle_project.uml#_Cb7OYND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Ha0KQdD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Ha0KQtD0EeyhVr5EEfl8yQ" type="Property_ClassAttributeLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdaaQtD1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdaaQ9D1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdhH8ND1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdnOkdD1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdrgBdD1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Property" href="OOP2022_a20samul_a20sarle_project.uml#_CcB8END0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Ha0KQ9D0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Ha0KRND0EeyhVr5EEfl8yQ" type="Property_ClassAttributeLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdaaRND1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdaaRdD1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdhH8dD1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdnOktD1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdrgBtD1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Property" href="OOP2022_a20samul_a20sarle_project.uml#_CcDxQND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Ha0KRdD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_CeHm1tD0EeyhVr5EEfl8yQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_CeHm19D0EeyhVr5EEfl8yQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_CeHm2ND0EeyhVr5EEfl8yQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CeHm2dD0EeyhVr5EEfl8yQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_CeHm2tD0EeyhVr5EEfl8yQ" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_Ha0xUND0EeyhVr5EEfl8yQ" type="Operation_ClassOperationLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdaaRtD1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdbBUND1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdhH8tD1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdnOk9D1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdrgB9D1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Operation" href="OOP2022_a20samul_a20sarle_project.uml#_CcE_YND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Ha0xUdD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Ha0xUtD0EeyhVr5EEfl8yQ" type="Operation_ClassOperationLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdbBUdD1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdbBUtD1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdhH89D1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdnOlND1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdsHEND1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Operation" href="OOP2022_a20samul_a20sarle_project.uml#_CcLGAND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Ha0xU9D0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Ha0xVND0EeyhVr5EEfl8yQ" type="Operation_ClassOperationLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdbBU9D1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdbBVND1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdhH9ND1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdnOldD1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdsHEdD1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Operation" href="OOP2022_a20samul_a20sarle_project.uml#_CcRMoND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Ha0xVdD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Ha1YYND0EeyhVr5EEfl8yQ" type="Operation_ClassOperationLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdbBVdD1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdbBVtD1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdhH9dD1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdnOltD1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdsHEtD1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Operation" href="OOP2022_a20samul_a20sarle_project.uml#_CcWsMND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Ha1YYdD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Ha1YYtD0EeyhVr5EEfl8yQ" type="Operation_ClassOperationLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdbBV9D1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdboYND1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdhH9tD1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdnOl9D1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdsHE9D1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Operation" href="OOP2022_a20samul_a20sarle_project.uml#_CccLwND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Ha1YY9D0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Ha1_cND0EeyhVr5EEfl8yQ" type="Operation_ClassOperationLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdboYdD1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdboYtD1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdhvAND1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdnOmND1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdsHFND1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Operation" href="OOP2022_a20samul_a20sarle_project.uml#_CciSYND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Ha1_cdD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Ha2mgND0EeyhVr5EEfl8yQ" type="Operation_ClassOperationLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdboY9D1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdboZND1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdhvAdD1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdnOmdD1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdsHFdD1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Operation" href="OOP2022_a20samul_a20sarle_project.uml#_CcnK4ND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Ha2mgdD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_afUggND1EeyhVr5EEfl8yQ" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="OOP2022_a20samul_a20sarle_project.uml#_aeQJgND1EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_afUggdD1EeyhVr5EEfl8yQ"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_CeHm29D0EeyhVr5EEfl8yQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_CeHm3ND0EeyhVr5EEfl8yQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_CeHm3dD0EeyhVr5EEfl8yQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CeHm3tD0EeyhVr5EEfl8yQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_CeIN0ND0EeyhVr5EEfl8yQ" type="Class_NestedClassifierCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_Ha2mgtD0EeyhVr5EEfl8yQ" type="Class_ClassNestedClassifierLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdboZdD1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdboZtD1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdhvAtD1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdnOmtD1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdsHFtD1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:OpaqueBehavior" href="OOP2022_a20samul_a20sarle_project.uml#_CcJQ0ND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Ha2mg9D0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Ha2mhND0EeyhVr5EEfl8yQ" type="Class_ClassNestedClassifierLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdboZ9D1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdboaND1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdhvA9D1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdnOm9D1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdsHF9D1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:OpaqueBehavior" href="OOP2022_a20samul_a20sarle_project.uml#_CcPXcND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Ha2mhdD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Ha3NkND0EeyhVr5EEfl8yQ" type="Class_ClassNestedClassifierLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdboadD1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdboatD1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdhvBND1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdnOnND1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdsuIND1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:OpaqueBehavior" href="OOP2022_a20samul_a20sarle_project.uml#_CcU3AND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Ha3NkdD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Ha3NktD0EeyhVr5EEfl8yQ" type="Class_ClassNestedClassifierLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdcPcND1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdcPcdD1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdhvBdD1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idn1oND1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdsuIdD1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:OpaqueBehavior" href="OOP2022_a20samul_a20sarle_project.uml#_CcaWkND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Ha3Nk9D0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Ha3NlND0EeyhVr5EEfl8yQ" type="Class_ClassNestedClassifierLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdcPctD1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdcPc9D1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdiWEND1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdocsND1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdsuItD1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:OpaqueBehavior" href="OOP2022_a20samul_a20sarle_project.uml#_CcgdMND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Ha3NldD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Ha30oND0EeyhVr5EEfl8yQ" type="Class_ClassNestedClassifierLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdcPdND1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdcPddD1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdiWEdD1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdocsdD1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdsuI9D1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:OpaqueBehavior" href="OOP2022_a20samul_a20sarle_project.uml#_CclVsND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Ha30odD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Ha30otD0EeyhVr5EEfl8yQ" type="Class_ClassNestedClassifierLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdcPdtD1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdcPd9D1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdiWEtD1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdocstD1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdsuJND1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:OpaqueBehavior" href="OOP2022_a20samul_a20sarle_project.uml#_CcpAEND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Ha30o9D0EeyhVr5EEfl8yQ"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_CeIN0dD0EeyhVr5EEfl8yQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_CeIN0tD0EeyhVr5EEfl8yQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_CeIN09D0EeyhVr5EEfl8yQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CeIN1ND0EeyhVr5EEfl8yQ"/>
+    </children>
+    <element xmi:type="uml:Class" href="OOP2022_a20samul_a20sarle_project.uml#_Cb5ZMND0EeyhVr5EEfl8yQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CeHm0dD0EeyhVr5EEfl8yQ" x="420" y="200"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_CeIN1dD0EeyhVr5EEfl8yQ" type="Interface_Shape" fontName="Times New Roman" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdcPeND1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdcPedD1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdiWE9D1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idocs9D1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdsuJdD1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NeYZwND1EeyhVr5EEfl8yQ" key="fillColor" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_CeIN19D0EeyhVr5EEfl8yQ" type="Interface_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_CeIN2ND0EeyhVr5EEfl8yQ" type="Interface_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_CeIN2dD0EeyhVr5EEfl8yQ" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_CeIN2tD0EeyhVr5EEfl8yQ" type="Interface_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_CeIN29D0EeyhVr5EEfl8yQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_CeIN3ND0EeyhVr5EEfl8yQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_CeIN3dD0EeyhVr5EEfl8yQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CeIN3tD0EeyhVr5EEfl8yQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_CeIN39D0EeyhVr5EEfl8yQ" type="Interface_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_Hawf4ND0EeyhVr5EEfl8yQ" type="Operation_InterfaceOperationLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdcPetD1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdcPe9D1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdiWFND1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdoctND1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdsuJtD1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Operation" href="OOP2022_a20samul_a20sarle_project.uml#_CcsqcND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Hawf4dD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_CeIN4ND0EeyhVr5EEfl8yQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_CeIN4dD0EeyhVr5EEfl8yQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_CeIN4tD0EeyhVr5EEfl8yQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CeIN49D0EeyhVr5EEfl8yQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_CeIN5ND0EeyhVr5EEfl8yQ" type="Interface_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_CeIN5dD0EeyhVr5EEfl8yQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_CeIN5tD0EeyhVr5EEfl8yQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_CeIN59D0EeyhVr5EEfl8yQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CeIN6ND0EeyhVr5EEfl8yQ"/>
+    </children>
+    <element xmi:type="uml:Interface" href="OOP2022_a20samul_a20sarle_project.uml#_Ccq1QND0EeyhVr5EEfl8yQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CeIN1tD0EeyhVr5EEfl8yQ" x="900" y="1380"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_CeI04ND0EeyhVr5EEfl8yQ" type="Class_Shape" fontName="Times New Roman" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Idddl9D1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdddmND1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdjkNdD1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdpDw9D1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idt8QtD1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NeYZwdD1EeyhVr5EEfl8yQ" key="fillColor" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_CeI04tD0EeyhVr5EEfl8yQ" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_CeI049D0EeyhVr5EEfl8yQ" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_CeI05ND0EeyhVr5EEfl8yQ" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_CeI05dD0EeyhVr5EEfl8yQ" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_HasOcND0EeyhVr5EEfl8yQ" type="Property_ClassAttributeLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdddmdD1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdddmtD1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdjkNtD1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idpq0ND1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idt8Q9D1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Property" href="OOP2022_a20samul_a20sarle_project.uml#_Ccw74ND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HasOcdD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Has1gND0EeyhVr5EEfl8yQ" type="Property_ClassAttributeLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdeEoND1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdeEodD1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdjkN9D1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idpq0dD1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idt8RND1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Property" href="OOP2022_a20samul_a20sarle_project.uml#_CcyxEND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Has1gdD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_CeI05tD0EeyhVr5EEfl8yQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_CeI059D0EeyhVr5EEfl8yQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_CeI06ND0EeyhVr5EEfl8yQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CeI06dD0EeyhVr5EEfl8yQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_CeI06tD0EeyhVr5EEfl8yQ" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_Has1gtD0EeyhVr5EEfl8yQ" type="Operation_ClassOperationLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdeEotD1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdeEo9D1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdjkOND1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idpq0tD1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idt8RdD1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Operation" href="OOP2022_a20samul_a20sarle_project.uml#_Ccz_MND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Has1g9D0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Has1hND0EeyhVr5EEfl8yQ" type="Operation_ClassOperationLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdeEpND1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdeEpdD1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdjkOdD1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idpq09D1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idt8RtD1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Operation" href="OOP2022_a20samul_a20sarle_project.uml#_Cc3CgND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Has1hdD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Has1htD0EeyhVr5EEfl8yQ" type="Operation_ClassOperationLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdeEptD1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdeEp9D1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdkLQND1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idpq1ND1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idt8R9D1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Operation" href="OOP2022_a20samul_a20sarle_project.uml#_Cc77AND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Has1h9D0EeyhVr5EEfl8yQ"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_CeI069D0EeyhVr5EEfl8yQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_CeI07ND0EeyhVr5EEfl8yQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_CeI07dD0EeyhVr5EEfl8yQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CeI07tD0EeyhVr5EEfl8yQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_CeI079D0EeyhVr5EEfl8yQ" type="Class_NestedClassifierCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_HatckND0EeyhVr5EEfl8yQ" type="Class_ClassNestedClassifierLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdeEqND1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdeEqdD1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdkLQdD1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idpq1dD1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdujUND1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:OpaqueBehavior" href="OOP2022_a20samul_a20sarle_project.uml#_Cc10YND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HatckdD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_HauDoND0EeyhVr5EEfl8yQ" type="Class_ClassNestedClassifierLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdeEqtD1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdersND1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdkLQtD1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idpq1tD1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdujUdD1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:OpaqueBehavior" href="OOP2022_a20samul_a20sarle_project.uml#_Cc6s4ND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HauDodD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_HauDotD0EeyhVr5EEfl8yQ" type="Class_ClassNestedClassifierLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdersdD1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IderstD1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdkLQ9D1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idpq19D1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdujUtD1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:OpaqueBehavior" href="OOP2022_a20samul_a20sarle_project.uml#_Cc9JIND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HauDo9D0EeyhVr5EEfl8yQ"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_CeI08ND0EeyhVr5EEfl8yQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_CeI08dD0EeyhVr5EEfl8yQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_CeI08tD0EeyhVr5EEfl8yQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CeI089D0EeyhVr5EEfl8yQ"/>
+    </children>
+    <element xmi:type="uml:Class" href="OOP2022_a20samul_a20sarle_project.uml#_CcvtwND0EeyhVr5EEfl8yQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CeI04dD0EeyhVr5EEfl8yQ" x="780" y="720"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_CeI09ND0EeyhVr5EEfl8yQ" type="Class_Shape" fontName="Times New Roman" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Idc2gND1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idc2gdD1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdiWFdD1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdoctdD1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdtVMND1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NeYZwtD1EeyhVr5EEfl8yQ" key="fillColor" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_CeJb8ND0EeyhVr5EEfl8yQ" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_CeJb8dD0EeyhVr5EEfl8yQ" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_CeJb8tD0EeyhVr5EEfl8yQ" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_CeJb89D0EeyhVr5EEfl8yQ" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_HauDpND0EeyhVr5EEfl8yQ" type="Property_ClassAttributeLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Idc2gtD1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idc2g9D1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdiWFtD1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdocttD1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdtVMdD1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Property" href="OOP2022_a20samul_a20sarle_project.uml#_CdAMcND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HauDpdD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_HauqsND0EeyhVr5EEfl8yQ" type="Property_ClassAttributeLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Idc2hND1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idc2hdD1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdiWF9D1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idoct9D1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdtVMtD1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Property" href="OOP2022_a20samul_a20sarle_project.uml#_CdCBoND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HauqsdD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_CeJb9ND0EeyhVr5EEfl8yQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_CeJb9dD0EeyhVr5EEfl8yQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_CeJb9tD0EeyhVr5EEfl8yQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CeJb99D0EeyhVr5EEfl8yQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_CeJb-ND0EeyhVr5EEfl8yQ" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_HauqstD0EeyhVr5EEfl8yQ" type="Operation_ClassOperationLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Idc2htD1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idc2h9D1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdiWGND1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdocuND1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdtVM9D1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Operation" href="OOP2022_a20samul_a20sarle_project.uml#_CdDPwND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Hauqs9D0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_HauqtND0EeyhVr5EEfl8yQ" type="Operation_ClassOperationLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Idc2iND1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idc2idD1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdjkMND1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdocudD1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdtVNND1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Operation" href="OOP2022_a20samul_a20sarle_project.uml#_CdGTEND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HauqtdD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_HavRwND0EeyhVr5EEfl8yQ" type="Operation_ClassOperationLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Idc2itD1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdddkND1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdjkMdD1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdocutD1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdtVNdD1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Operation" href="OOP2022_a20samul_a20sarle_project.uml#_CdKkgND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HavRwdD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_CeJb-dD0EeyhVr5EEfl8yQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_CeJb-tD0EeyhVr5EEfl8yQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_CeJb-9D0EeyhVr5EEfl8yQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CeJb_ND0EeyhVr5EEfl8yQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_CeJb_dD0EeyhVr5EEfl8yQ" type="Class_NestedClassifierCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_HavRwtD0EeyhVr5EEfl8yQ" type="Class_ClassNestedClassifierLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdddkdD1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdddktD1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdjkMtD1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdpDwND1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdtVNtD1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:OpaqueBehavior" href="OOP2022_a20samul_a20sarle_project.uml#_CdEd4ND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HavRw9D0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Hav40ND0EeyhVr5EEfl8yQ" type="Class_ClassNestedClassifierLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Idddk9D1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdddlND1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdjkM9D1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdpDwdD1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idt8QND1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:OpaqueBehavior" href="OOP2022_a20samul_a20sarle_project.uml#_CdJ9cND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Hav40dD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Hav40tD0EeyhVr5EEfl8yQ" type="Class_ClassNestedClassifierLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IdddldD1EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdddltD1EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdjkNND1EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IdpDwtD1EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Idt8QdD1EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:OpaqueBehavior" href="OOP2022_a20samul_a20sarle_project.uml#_CdMZsND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Hav409D0EeyhVr5EEfl8yQ"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_CeJb_tD0EeyhVr5EEfl8yQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_CeJb_9D0EeyhVr5EEfl8yQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_CeJcAND0EeyhVr5EEfl8yQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CeJcAdD0EeyhVr5EEfl8yQ"/>
+    </children>
+    <element xmi:type="uml:Class" href="OOP2022_a20samul_a20sarle_project.uml#_Cc--UND0EeyhVr5EEfl8yQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CeI09dD0EeyhVr5EEfl8yQ" x="920" y="940"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_CeKDAND0EeyhVr5EEfl8yQ" type="Class_Shape" fontName="Times New Roman" fontHeight="10" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zjZecND0EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zjaFgND0EeyhVr5EEfl8yQ" key="bold" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zjaskND0EeyhVr5EEfl8yQ" key="italic" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zjbToND0EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NeWkkND1EeyhVr5EEfl8yQ" key="fillColor" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_CeKDAtD0EeyhVr5EEfl8yQ" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_CeKDA9D0EeyhVr5EEfl8yQ" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_CeKDBND0EeyhVr5EEfl8yQ" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_CeKDBdD0EeyhVr5EEfl8yQ" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_HaxG8ND0EeyhVr5EEfl8yQ" type="Property_ClassAttributeLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3WYA0ND0EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3WYA0dD0EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3WYn4ND0EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3WZO8ND0EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3WZ2AND0EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Property" href="OOP2022_a20samul_a20sarle_project.uml#_CdUVgND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HaxG8dD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_HaxG8tD0EeyhVr5EEfl8yQ" type="Property_ClassAttributeLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8PYXIND0EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PYXIdD0EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PgS8tD0EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PmZkND0EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PrSEND0EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Property" href="OOP2022_a20samul_a20sarle_project.uml#_CdVjoND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HaxG89D0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_HaxG9ND0EeyhVr5EEfl8yQ" type="Property_ClassAttributeLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8PY-MND0EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PY-MdD0EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8Pg6AND0EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PmZkdD0EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PrSEdD0EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Property" href="OOP2022_a20samul_a20sarle_project.uml#_CdWxwND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HaxG9dD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_HaxG9tD0EeyhVr5EEfl8yQ" type="Property_ClassAttributeLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8PazYND0EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PazYdD0EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PiIIND0EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PnnsND0EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PsgMdD0EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Property" href="OOP2022_a20samul_a20sarle_project.uml#_CdXY0ND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HaxG99D0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_HaxuAND0EeyhVr5EEfl8yQ" type="Property_ClassAttributeLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8PazYtD0EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PbacND0EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PiIIdD0EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PnnsdD0EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PsgMtD0EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Property" href="OOP2022_a20samul_a20sarle_project.uml#_CdZOAdD0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HaxuAdD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_HayVEND0EeyhVr5EEfl8yQ" type="Property_ClassAttributeLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8PaMUND0EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PaMUdD0EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PhhEdD0EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PnAodD0EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PsgMND0EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Property" href="OOP2022_a20samul_a20sarle_project.uml#_CdbDMND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HayVEdD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_HayVEtD0EeyhVr5EEfl8yQ" type="Property_ClassAttributeLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8PZlQND0EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PZlQdD0EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PhhEND0EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PnAoND0EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8Pr5IND0EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Property" href="OOP2022_a20samul_a20sarle_project.uml#_Cdc4YND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HayVE9D0EeyhVr5EEfl8yQ"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_CeKDBtD0EeyhVr5EEfl8yQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_CeKDB9D0EeyhVr5EEfl8yQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_CeKDCND0EeyhVr5EEfl8yQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CeKDCdD0EeyhVr5EEfl8yQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_CeKDCtD0EeyhVr5EEfl8yQ" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_HayVFND0EeyhVr5EEfl8yQ" type="Operation_ClassOperationLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8PbacdD0EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PbactD0EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PivMND0EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PoOwND0EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PtHQND0EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Operation" href="OOP2022_a20samul_a20sarle_project.uml#_CdQrIND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HayVFdD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_HayVFtD0EeyhVr5EEfl8yQ" type="Operation_ClassOperationLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8PcBgND0EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PcBgdD0EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PjWQND0EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PoOwdD0EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PtuUND0EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Operation" href="OOP2022_a20samul_a20sarle_project.uml#_CdetkND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HayVF9D0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Hay8IND0EeyhVr5EEfl8yQ" type="Operation_ClassOperationLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8PcokND0EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PcokdD0EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PjWQdD0EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8Po10ND0EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PtuUdD0EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Operation" href="OOP2022_a20samul_a20sarle_project.uml#_Cdi_AND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Hay8IdD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_CeKDC9D0EeyhVr5EEfl8yQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_CeKDDND0EeyhVr5EEfl8yQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_CeKDDdD0EeyhVr5EEfl8yQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CeKDDtD0EeyhVr5EEfl8yQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_CeKDD9D0EeyhVr5EEfl8yQ" type="Class_NestedClassifierCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_Hay8ItD0EeyhVr5EEfl8yQ" type="Class_ClassNestedClassifierLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8PdPoND0EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8Pd2sND0EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8Pj9UND0EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8Po10dD0EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PtuUtD0EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:OpaqueBehavior" href="OOP2022_a20samul_a20sarle_project.uml#_CdTHYtD0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Hay8I9D0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_HazjMND0EeyhVr5EEfl8yQ" type="Class_ClassNestedClassifierLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8Pd2sdD0EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8Pd2stD0EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PkkYND0EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8Ppc4ND0EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PuVYND0EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:OpaqueBehavior" href="OOP2022_a20samul_a20sarle_project.uml#_Cdhw4ND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HazjMdD0EeyhVr5EEfl8yQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_HazjMtD0EeyhVr5EEfl8yQ" type="Class_ClassNestedClassifierLabel" fontName="Times New Roman">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8Pd2s9D0EeyhVr5EEfl8yQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8Pd2tND0EeyhVr5EEfl8yQ" key="fontHeight" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PkkYdD0EeyhVr5EEfl8yQ" key="bold" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8Ppc4dD0EeyhVr5EEfl8yQ" key="italic" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PuVYdD0EeyhVr5EEfl8yQ" key="fontColor" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:OpaqueBehavior" href="OOP2022_a20samul_a20sarle_project.uml#_Cdk0MND0EeyhVr5EEfl8yQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HazjM9D0EeyhVr5EEfl8yQ"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_CeKDEND0EeyhVr5EEfl8yQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_CeKDEdD0EeyhVr5EEfl8yQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_CeKDEtD0EeyhVr5EEfl8yQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CeKDE9D0EeyhVr5EEfl8yQ"/>
+    </children>
+    <element xmi:type="uml:Class" href="OOP2022_a20samul_a20sarle_project.uml#_CcDKMND0EeyhVr5EEfl8yQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CeKDAdD0EeyhVr5EEfl8yQ" x="420" y="660"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_8t1DIdDzEeyhVr5EEfl8yQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_8t1qMNDzEeyhVr5EEfl8yQ"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_8t1qMdDzEeyhVr5EEfl8yQ" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+    <owner xmi:type="uml:Model" href="OOP2022_a20samul_a20sarle_project.uml#_8q2AkNDzEeyhVr5EEfl8yQ"/>
+  </styles>
+  <element xmi:type="uml:Model" href="OOP2022_a20samul_a20sarle_project.uml#_8q2AkNDzEeyhVr5EEfl8yQ"/>
+  <edges xmi:type="notation:Connector" xmi:id="_ohg2oND6EeyhVr5EEfl8yQ" type="Generalization_Edge" source="_CeI09ND0EeyhVr5EEfl8yQ" target="_CeIN1dD0EeyhVr5EEfl8yQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ohj58ND6EeyhVr5EEfl8yQ" type="Generalization_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ohkhAND6EeyhVr5EEfl8yQ" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ohhdsND6EeyhVr5EEfl8yQ"/>
+    <element xmi:type="uml:Generalization" href="OOP2022_a20samul_a20sarle_project.uml#_ogb4kND6EeyhVr5EEfl8yQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ohhdsdD6EeyhVr5EEfl8yQ" points="[1100, 1138, -643984, -643984]$[980, 1380, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oifHAND6EeyhVr5EEfl8yQ" id="(0.6338028169014085,0.9949748743718593)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oifHAdD6EeyhVr5EEfl8yQ" id="(0.28169014084507044,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_rkRdAND6EeyhVr5EEfl8yQ" type="Generalization_Edge" source="_CeI04ND0EeyhVr5EEfl8yQ" target="_CeIN1dD0EeyhVr5EEfl8yQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_rkRdA9D6EeyhVr5EEfl8yQ" type="Generalization_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_rkRdBND6EeyhVr5EEfl8yQ" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_rkRdAdD6EeyhVr5EEfl8yQ"/>
+    <element xmi:type="uml:Generalization" href="OOP2022_a20samul_a20sarle_project.uml#_rjTMoND6EeyhVr5EEfl8yQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rkRdAtD6EeyhVr5EEfl8yQ" points="[780, 894, -643984, -643984]$[960, 1380, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rk_1wND6EeyhVr5EEfl8yQ" id="(0.14084507042253522,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rk_1wdD6EeyhVr5EEfl8yQ" id="(0.2112676056338028,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_04pLYND6EeyhVr5EEfl8yQ" type="Association_Edge" source="_Cd8AkND0EeyhVr5EEfl8yQ" target="_CeIN1dD0EeyhVr5EEfl8yQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_04pycND6EeyhVr5EEfl8yQ" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_04pycdD6EeyhVr5EEfl8yQ" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_04pyctD6EeyhVr5EEfl8yQ" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_04pyc9D6EeyhVr5EEfl8yQ" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_04pydND6EeyhVr5EEfl8yQ" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_04pyddD6EeyhVr5EEfl8yQ" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_04qZgND6EeyhVr5EEfl8yQ" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_04qZgdD6EeyhVr5EEfl8yQ" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_04qZgtD6EeyhVr5EEfl8yQ" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_04qZg9D6EeyhVr5EEfl8yQ" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_04qZhND6EeyhVr5EEfl8yQ" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_04qZhdD6EeyhVr5EEfl8yQ" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_04pLYdD6EeyhVr5EEfl8yQ"/>
+    <element xmi:type="uml:Association" href="OOP2022_a20samul_a20sarle_project.uml#_03TuoND6EeyhVr5EEfl8yQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_04pLYtD6EeyhVr5EEfl8yQ" points="[762, 1460, -643984, -643984]$[900, 1460, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_06C5kND6EeyhVr5EEfl8yQ" id="(1.0,0.8067940552016986)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_06C5kdD6EeyhVr5EEfl8yQ" id="(0.0,0.6956521739130435)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_6GSU8ND6EeyhVr5EEfl8yQ" type="Association_Edge" source="_CeKDAND0EeyhVr5EEfl8yQ" target="_Cd8AkND0EeyhVr5EEfl8yQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_6GSU89D6EeyhVr5EEfl8yQ" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_6GSU9ND6EeyhVr5EEfl8yQ" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_6GSU9dD6EeyhVr5EEfl8yQ" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_6GSU9tD6EeyhVr5EEfl8yQ" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_6GSU99D6EeyhVr5EEfl8yQ" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_6GSU-ND6EeyhVr5EEfl8yQ" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_6GSU-dD6EeyhVr5EEfl8yQ" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_6GSU-tD6EeyhVr5EEfl8yQ" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_6GSU-9D6EeyhVr5EEfl8yQ" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_6GSU_ND6EeyhVr5EEfl8yQ" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_6GSU_dD6EeyhVr5EEfl8yQ" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_6GSU_tD6EeyhVr5EEfl8yQ" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_6GSU8dD6EeyhVr5EEfl8yQ"/>
+    <element xmi:type="uml:Association" href="OOP2022_a20samul_a20sarle_project.uml#_6FN98ND6EeyhVr5EEfl8yQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6GSU8tD6EeyhVr5EEfl8yQ" points="[580, 946, -643984, -643984]$[580, 1080, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6H10IND6EeyhVr5EEfl8yQ" id="(0.4892966360856269,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6H2bMND6EeyhVr5EEfl8yQ" id="(0.4972375690607735,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_8LREcND6EeyhVr5EEfl8yQ" type="Association_Edge" source="_CeHm0ND0EeyhVr5EEfl8yQ" target="_CeKDAND0EeyhVr5EEfl8yQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_8LREc9D6EeyhVr5EEfl8yQ" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_8LREdND6EeyhVr5EEfl8yQ" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_8LREddD6EeyhVr5EEfl8yQ" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_8LREdtD6EeyhVr5EEfl8yQ" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_8LREd9D6EeyhVr5EEfl8yQ" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_8LREeND6EeyhVr5EEfl8yQ" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_8LRrgND6EeyhVr5EEfl8yQ" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_8LRrgdD6EeyhVr5EEfl8yQ" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_8LRrgtD6EeyhVr5EEfl8yQ" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_8LRrg9D6EeyhVr5EEfl8yQ" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_8LRrhND6EeyhVr5EEfl8yQ" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_8LRrhdD6EeyhVr5EEfl8yQ" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_8LREcdD6EeyhVr5EEfl8yQ"/>
+    <element xmi:type="uml:Association" href="OOP2022_a20samul_a20sarle_project.uml#_8KNUgND6EeyhVr5EEfl8yQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8LREctD6EeyhVr5EEfl8yQ" points="[580, 572, -643984, -643984]$[580, 660, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8MNfoND6EeyhVr5EEfl8yQ" id="(0.1968019680196802,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8MNfodD6EeyhVr5EEfl8yQ" id="(0.4892966360856269,0.0)"/>
+  </edges>
+</notation:Diagram>

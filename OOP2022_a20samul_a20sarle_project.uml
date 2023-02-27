@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:PapyrusJava="http://www.eclipse.org/papyrus/PapyrusJava/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:standard="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <uml:Model xmi:id="_8q2AkNDzEeyhVr5EEfl8yQ" name="OOP2022_a20samul_a20sarle_project">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_8w_r4NDzEeyhVr5EEfl8yQ">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_CTLiEND0EeyhVr5EEfl8yQ" name="OOP2022_a20samul_a20sarle_project">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_CWNA4ND0EeyhVr5EEfl8yQ" name="BoardInterface">
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_CZsZwND0EeyhVr5EEfl8yQ" name="getCells" visibility="private">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_CZ2KwND0EeyhVr5EEfl8yQ" type="_CZu2AND0EeyhVr5EEfl8yQ" direction="return">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CZ3Y4ND0EeyhVr5EEfl8yQ"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CZ3_8ND0EeyhVr5EEfl8yQ" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_CZ5OEND0EeyhVr5EEfl8yQ" name="listener" type="_CWU8sND0EeyhVr5EEfl8yQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_CZ-toND0EeyhVr5EEfl8yQ" name="getGrid" visibility="private">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_CZ_7wND0EeyhVr5EEfl8yQ" type="_CZu2AND0EeyhVr5EEfl8yQ" direction="return">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CaAi0ND0EeyhVr5EEfl8yQ"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CaBJ4ND0EeyhVr5EEfl8yQ" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_CaBw8ND0EeyhVr5EEfl8yQ" name="getFrame" visibility="private">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_CaHQgND0EeyhVr5EEfl8yQ" type="_CaCYAND0EeyhVr5EEfl8yQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_CaIeoND0EeyhVr5EEfl8yQ" name="getCellPanel" visibility="private">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_CaN-MND0EeyhVr5EEfl8yQ" type="_CaJFsND0EeyhVr5EEfl8yQ" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_CaPMUND0EeyhVr5EEfl8yQ" name="Board" visibility="public">
+        <generalization xmi:type="uml:Generalization" xmi:id="_CaaygND0EeyhVr5EEfl8yQ" general="_CWU8sND0EeyhVr5EEfl8yQ"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_CaqDEND0EeyhVr5EEfl8yQ" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" type="_CapcAND0EeyhVr5EEfl8yQ" isUnique="false">
+          <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_Car4QND0EeyhVr5EEfl8yQ" name="defaultValue">
+            <language>JAVA</language>
+            <body>1L</body>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_CattcND0EeyhVr5EEfl8yQ" name="frame" visibility="public" isStatic="true" type="_CaCYAND0EeyhVr5EEfl8yQ" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_CawwwND0EeyhVr5EEfl8yQ" name="contentPane" visibility="private" type="_CaJFsND0EeyhVr5EEfl8yQ" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Cayl8ND0EeyhVr5EEfl8yQ" name="cellPanel" visibility="private" type="_CaJFsND0EeyhVr5EEfl8yQ" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Ca0bIND0EeyhVr5EEfl8yQ" name="titlePanel" visibility="private" type="_CaJFsND0EeyhVr5EEfl8yQ" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Ca2QUND0EeyhVr5EEfl8yQ" name="cells" visibility="private" type="_CZu2AND0EeyhVr5EEfl8yQ" isUnique="false">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ca4FgND0EeyhVr5EEfl8yQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ca4skND0EeyhVr5EEfl8yQ" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Ca56sND0EeyhVr5EEfl8yQ" name="arrayOfAllGeneratedButtonsOnTheBoard" visibility="private" type="_CZu2AND0EeyhVr5EEfl8yQ" isUnique="false">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ca7I0ND0EeyhVr5EEfl8yQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ca8W8ND0EeyhVr5EEfl8yQ" value="*"/>
+          <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_Ca8W8dD0EeyhVr5EEfl8yQ" name="defaultValue">
+            <language>JAVA</language>
+            <body>new JButton[9]</body>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Ca9lEND0EeyhVr5EEfl8yQ" name="instance" visibility="private" isStatic="true" type="_CaPMUND0EeyhVr5EEfl8yQ" isUnique="false">
+          <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_CbABUND0EeyhVr5EEfl8yQ" name="defaultValue">
+            <language>JAVA</language>
+            <body>null</body>
+          </defaultValue>
+        </ownedAttribute>
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_CaZkYND0EeyhVr5EEfl8yQ" name="Board implements BoardInterface" client="_CaPMUND0EeyhVr5EEfl8yQ" supplier="_CWNA4ND0EeyhVr5EEfl8yQ" contract="_CWNA4ND0EeyhVr5EEfl8yQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CbOq0ND0EeyhVr5EEfl8yQ" name="Board" specification="_CbBPcND0EeyhVr5EEfl8yQ">
+          <language>JAVA</language>
+          <body>&#xD;
+    frame = getFrame();&#xD;
+    cellPanel = getCellPanel();&#xD;
+    frame.getContentPane().setBackground(Color.ORANGE);&#xD;
+    frame.getContentPane().add(cellPanel, BorderLayout.CENTER);&#xD;
+    cells = getCells(listener);&#xD;
+    System.out.println(cellPanel.getComponentCount());&#xD;
+    frame.setVisible(true);&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CbUxcND0EeyhVr5EEfl8yQ" name="getInstance" specification="_CbRuIND0EeyhVr5EEfl8yQ">
+          <language>JAVA</language>
+          <body>&#xD;
+    if (instance == null) {&#xD;
+        instance = new Board(listener);&#xD;
+    }&#xD;
+    return instance;&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CbXNsND0EeyhVr5EEfl8yQ" name="resetBoard" specification="_CbWmoND0EeyhVr5EEfl8yQ">
+          <language>JAVA</language>
+          <body>&#xD;
+    instance = null;&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CbbfIND0EeyhVr5EEfl8yQ" name="getGrid" specification="_CbYb0ND0EeyhVr5EEfl8yQ">
+          <language>JAVA</language>
+          <body>&#xD;
+    return arrayOfAllGeneratedButtonsOnTheBoard;&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CbhlwND0EeyhVr5EEfl8yQ" name="getCells" specification="_CbdUUND0EeyhVr5EEfl8yQ">
+          <language>JAVA</language>
+          <body>&#xD;
+    for (int i = 0; i &lt; 9; i++) {&#xD;
+        JButton cellButton = new JButton();&#xD;
+        cellButton.addActionListener(listener);&#xD;
+        cellPanel.add(cellButton);&#xD;
+        // Get all the generated buttons and add each object to the array&#xD;
+        // to later be able to get those to use during win detection&#xD;
+        arrayOfAllGeneratedButtonsOnTheBoard[i] = cellButton;&#xD;
+    }&#xD;
+    return arrayOfAllGeneratedButtonsOnTheBoard;&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CblQIND0EeyhVr5EEfl8yQ" name="getFrame" specification="_Cbja8ND0EeyhVr5EEfl8yQ">
+          <language>JAVA</language>
+          <body>&#xD;
+    frame = new JFrame(&quot;Tic Tac Toe&quot;);&#xD;
+    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);&#xD;
+    frame.setBounds(350, 50, 480, 585);&#xD;
+    frame.setBackground(Color.PINK);&#xD;
+    frame.setResizable(false);&#xD;
+    return frame;&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CboTcND0EeyhVr5EEfl8yQ" name="getCellPanel" specification="_CbmeQND0EeyhVr5EEfl8yQ">
+          <language>JAVA</language>
+          <body>&#xD;
+    cellPanel = new JPanel();&#xD;
+    cellPanel.setLayout(new GridLayout(3, 3));&#xD;
+    return cellPanel;&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Cbw2UND0EeyhVr5EEfl8yQ" name="actionPerformed" specification="_CbvBIND0EeyhVr5EEfl8yQ">
+          <language>JAVA</language>
+          <body>&#xD;
+// TODO Auto-generated method stub&#xD;
+</body>
+        </ownedBehavior>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_CbBPcND0EeyhVr5EEfl8yQ" name="Board" visibility="private" method="_CbOq0ND0EeyhVr5EEfl8yQ">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_CbHWEND0EeyhVr5EEfl8yQ" name="listener" type="_CWU8sND0EeyhVr5EEfl8yQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_CbRuIND0EeyhVr5EEfl8yQ" name="getInstance" visibility="public" isStatic="true" method="_CbUxcND0EeyhVr5EEfl8yQ">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_CbSVMND0EeyhVr5EEfl8yQ" type="_CaPMUND0EeyhVr5EEfl8yQ" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_CbUKYND0EeyhVr5EEfl8yQ" name="listener" type="_CWU8sND0EeyhVr5EEfl8yQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_CbWmoND0EeyhVr5EEfl8yQ" name="resetBoard" visibility="public" isStatic="true" method="_CbXNsND0EeyhVr5EEfl8yQ"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_CbYb0ND0EeyhVr5EEfl8yQ" name="getGrid" visibility="public" method="_CbbfIND0EeyhVr5EEfl8yQ">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_CbZp8ND0EeyhVr5EEfl8yQ" type="_CZu2AND0EeyhVr5EEfl8yQ" direction="return">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CbaRAND0EeyhVr5EEfl8yQ"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Cba4END0EeyhVr5EEfl8yQ" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_CbdUUND0EeyhVr5EEfl8yQ" name="getCells" visibility="public" method="_CbhlwND0EeyhVr5EEfl8yQ">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_Cbd7YND0EeyhVr5EEfl8yQ" type="_CZu2AND0EeyhVr5EEfl8yQ" direction="return">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CbfJgND0EeyhVr5EEfl8yQ"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CbfwkND0EeyhVr5EEfl8yQ" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_CbgXoND0EeyhVr5EEfl8yQ" name="listener" type="_CWU8sND0EeyhVr5EEfl8yQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_Cbja8ND0EeyhVr5EEfl8yQ" name="getFrame" visibility="public" method="_CblQIND0EeyhVr5EEfl8yQ">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_CbkpEND0EeyhVr5EEfl8yQ" type="_CaCYAND0EeyhVr5EEfl8yQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_CbmeQND0EeyhVr5EEfl8yQ" name="getCellPanel" visibility="public" method="_CboTcND0EeyhVr5EEfl8yQ">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_CbnsYND0EeyhVr5EEfl8yQ" type="_CaJFsND0EeyhVr5EEfl8yQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_CbvBIND0EeyhVr5EEfl8yQ" name="actionPerformed" visibility="public" method="_Cbw2UND0EeyhVr5EEfl8yQ">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_CbwPQND0EeyhVr5EEfl8yQ" name="e" type="_CbphkND0EeyhVr5EEfl8yQ"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Cb5ZMND0EeyhVr5EEfl8yQ" name="DetectWin" visibility="public">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Cb7OYND0EeyhVr5EEfl8yQ" name="gameOver" visibility="private" type="_Cb6nUND0EeyhVr5EEfl8yQ" isUnique="false">
+          <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_Cb71cND0EeyhVr5EEfl8yQ" name="defaultValue">
+            <language>JAVA</language>
+            <body>false</body>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_CcB8END0EeyhVr5EEfl8yQ" name="outcomeMessage" visibility="private" type="_Cb9qoND0EeyhVr5EEfl8yQ" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_CcDxQND0EeyhVr5EEfl8yQ" name="ticTacToe" visibility="private" type="_CcDKMND0EeyhVr5EEfl8yQ" isUnique="false"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CcJQ0ND0EeyhVr5EEfl8yQ" name="checkForWin" specification="_CcE_YND0EeyhVr5EEfl8yQ">
+          <language>JAVA</language>
+          <body>&#xD;
+    checkWinColumns(buttonClicked, arrayOfAllFetchedButtonsFromGrid);&#xD;
+    checkWinRows(buttonClicked, arrayOfAllFetchedButtonsFromGrid);&#xD;
+    checkWinDiaglonals(buttonClicked, arrayOfAllFetchedButtonsFromGrid);&#xD;
+    // If it's a draw the game ends&#xD;
+    if (checkForDraw(arrayOfAllFetchedButtonsFromGrid)) {&#xD;
+        gameOver(&quot;It's a draw,&quot;);&#xD;
+    }&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CcPXcND0EeyhVr5EEfl8yQ" name="checkForDraw" specification="_CcLGAND0EeyhVr5EEfl8yQ">
+          <language>JAVA</language>
+          <body>&#xD;
+    boolean notAllButtonsClicked = true;&#xD;
+    for (JButton button : arrayOfAllFetchedButtonsFromGrid) {&#xD;
+        // a draw and the game ends&#xD;
+        if (button.getText().isEmpty()) {&#xD;
+            notAllButtonsClicked = false;&#xD;
+        }&#xD;
+    }&#xD;
+    return notAllButtonsClicked;&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CcU3AND0EeyhVr5EEfl8yQ" name="checkWinRows" specification="_CcRMoND0EeyhVr5EEfl8yQ">
+          <language>JAVA</language>
+          <body>&#xD;
+    for (int i = 0; i &lt; 3; i++) {&#xD;
+        for (int j = 0; j &lt; 3; j++) {&#xD;
+            if (buttonClicked.getText().equals(arrayOfAllFetchedButtonsFromGrid[i].getText()) &amp;&amp; buttonClicked.getText().equals(arrayOfAllFetchedButtonsFromGrid[i + 1].getText()) &amp;&amp; buttonClicked.getText().equals(arrayOfAllFetchedButtonsFromGrid[i + 2].getText())) {&#xD;
+                changeBackgroundColor(arrayOfAllFetchedButtonsFromGrid[i], arrayOfAllFetchedButtonsFromGrid[i + 1], arrayOfAllFetchedButtonsFromGrid[i + 2]);&#xD;
+                gameOver(buttonClicked.getText() + &quot; won!&quot;);&#xD;
+            }&#xD;
+            i = i + 3;&#xD;
+        }&#xD;
+    }&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CcaWkND0EeyhVr5EEfl8yQ" name="checkWinColumns" specification="_CcWsMND0EeyhVr5EEfl8yQ">
+          <language>JAVA</language>
+          <body>&#xD;
+    for (int i = 0; i &lt; 3; i++) {&#xD;
+        for (int j = 0; j &lt; 3; j++) {&#xD;
+            if (buttonClicked.getText().equals(arrayOfAllFetchedButtonsFromGrid[i].getText()) &amp;&amp; buttonClicked.getText().equals(arrayOfAllFetchedButtonsFromGrid[i + 3].getText()) &amp;&amp; buttonClicked.getText().equals(arrayOfAllFetchedButtonsFromGrid[i + 6].getText())) {&#xD;
+                changeBackgroundColor(arrayOfAllFetchedButtonsFromGrid[i], arrayOfAllFetchedButtonsFromGrid[i + 3], arrayOfAllFetchedButtonsFromGrid[i + 6]);&#xD;
+                gameOver(buttonClicked.getText() + &quot; won!&quot;);&#xD;
+            }&#xD;
+            i = i + 1;&#xD;
+        }&#xD;
+    }&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CcgdMND0EeyhVr5EEfl8yQ" name="checkWinDiaglonals" specification="_CccLwND0EeyhVr5EEfl8yQ">
+          <language>JAVA</language>
+          <body>&#xD;
+    /*
+		 * &quot;valueOfOneForSecondLoop&quot; is used since a=0 and i=0 during the first loop and
+		 * therefore a/a respectively i/i can not be used (0 can never be denominator)
+		 * to get the value 1 during the second loop. At the end of the first loop,
+		 * &quot;valueOfOneForSecondLoop&quot; is given the value 1.
+		 */&#xD;
+    int valueOfOneForSecondLoop = 0;&#xD;
+    /*
+		 * &quot;positionOfClickedCell&quot; is used as the start value of each calculation. The
+		 * difference between &quot;positionOfClickedCell&quot; and &quot;i&quot; is that at the beginning
+		 * of the second loop a=2 and i=3 because of the natural increment of &quot;i&quot; as a
+		 * part of the for-loop functionality.
+		 */&#xD;
+    int positionOfClickedCell = 0;&#xD;
+    /*
+		 * i &lt; 5 is used so that the loop will only run two times. At the start of the
+		 * second loop i=2. At the end of the the second loop i=5.
+		 */&#xD;
+    for (int i = 0; i &lt; 5; i++) {&#xD;
+        /*
+			 * The values inside the equals() during the first loop: (a)=**0**,
+			 * (a+(4-i+(i/2)))=**4** and ((a+8-one)-i)=**8** The values inside the equals()
+			 * during the second loop: (a)=**2**, (a+(4-i+(i/2)))=**4** and
+			 * ((a+8-one)-i)=**6** The changing of values were made possible due to the
+			 * start value 0, of &quot;a&quot; and &quot;i&quot;, making the constants 4 and 8 the only values
+			 * impacting the final value of the calculations during the first loop through.
+			 */&#xD;
+        if (buttonClicked.getText().equals(arrayOfAllFetchedButtonsFromGrid[positionOfClickedCell].getText()) &amp;&amp; buttonClicked.getText().equals(arrayOfAllFetchedButtonsFromGrid[positionOfClickedCell + (4 - i + (i / 2))].getText()) &amp;&amp; buttonClicked.getText().equals(arrayOfAllFetchedButtonsFromGrid[(positionOfClickedCell + 8 - valueOfOneForSecondLoop) - i].getText())) {&#xD;
+            changeBackgroundColor(arrayOfAllFetchedButtonsFromGrid[positionOfClickedCell], arrayOfAllFetchedButtonsFromGrid[positionOfClickedCell + (4 - i + (i / 2))], arrayOfAllFetchedButtonsFromGrid[(positionOfClickedCell + 8 - valueOfOneForSecondLoop) - i]);&#xD;
+            gameOver(buttonClicked.getText() + &quot; won!&quot;);&#xD;
+        }&#xD;
+        valueOfOneForSecondLoop = 1;&#xD;
+        positionOfClickedCell = positionOfClickedCell + 2;&#xD;
+        i = i + 2;&#xD;
+    }&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CclVsND0EeyhVr5EEfl8yQ" name="changeBackgroundColor" specification="_CciSYND0EeyhVr5EEfl8yQ">
+          <language>JAVA</language>
+          <body>&#xD;
+    winStreakButtonOne.setBackground(Color.green);&#xD;
+    winStreakButtonTwo.setBackground(Color.green);&#xD;
+    winStreakButtonThree.setBackground(Color.green);&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CcpAEND0EeyhVr5EEfl8yQ" name="gameOver" specification="_CcnK4ND0EeyhVr5EEfl8yQ">
+          <language>JAVA</language>
+          <body>&#xD;
+    gameOver = true;&#xD;
+    JOptionPane playAgain = new JOptionPane();&#xD;
+    int yesOrNo = JOptionPane.showConfirmDialog(playAgain, outcomeMessage + &quot; Changing start player, play again?&quot;, &quot;Game Over&quot;, JOptionPane.YES_NO_OPTION);&#xD;
+    {&#xD;
+        if (yesOrNo == JOptionPane.NO_OPTION) {&#xD;
+            System.exit(0);&#xD;
+        } else {&#xD;
+            // Disposes the frame&#xD;
+            Board.frame.dispose();&#xD;
+            // Sets the instance of Board to null&#xD;
+            Board.resetBoard();&#xD;
+            // Creates new TicTacToe round&#xD;
+            new TicTacToe();&#xD;
+        }&#xD;
+    }&#xD;
+</body>
+        </ownedBehavior>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_CcE_YND0EeyhVr5EEfl8yQ" name="checkForWin" visibility="public" method="_CcJQ0ND0EeyhVr5EEfl8yQ">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_CcGNgND0EeyhVr5EEfl8yQ" name="buttonClicked" type="_CZu2AND0EeyhVr5EEfl8yQ"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_CcHboND0EeyhVr5EEfl8yQ" name="arrayOfAllFetchedButtonsFromGrid" type="_CZu2AND0EeyhVr5EEfl8yQ">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CcICsND0EeyhVr5EEfl8yQ"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CcIpwND0EeyhVr5EEfl8yQ" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_CcLGAND0EeyhVr5EEfl8yQ" name="checkForDraw" visibility="public" method="_CcPXcND0EeyhVr5EEfl8yQ">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_CcMUIND0EeyhVr5EEfl8yQ" type="_Cb6nUND0EeyhVr5EEfl8yQ" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_CcNiQND0EeyhVr5EEfl8yQ" name="arrayOfAllFetchedButtonsFromGrid" type="_CZu2AND0EeyhVr5EEfl8yQ">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CcOJUND0EeyhVr5EEfl8yQ"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CcOwYND0EeyhVr5EEfl8yQ" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_CcRMoND0EeyhVr5EEfl8yQ" name="checkWinRows" visibility="private" method="_CcU3AND0EeyhVr5EEfl8yQ">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_CcSawND0EeyhVr5EEfl8yQ" name="buttonClicked" type="_CZu2AND0EeyhVr5EEfl8yQ"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_CcTB0ND0EeyhVr5EEfl8yQ" name="arrayOfAllFetchedButtonsFromGrid" type="_CZu2AND0EeyhVr5EEfl8yQ">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CcTo4ND0EeyhVr5EEfl8yQ"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CcUP8ND0EeyhVr5EEfl8yQ" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_CcWsMND0EeyhVr5EEfl8yQ" name="checkWinColumns" visibility="private" method="_CcaWkND0EeyhVr5EEfl8yQ">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_CcXTQND0EeyhVr5EEfl8yQ" name="buttonClicked" type="_CZu2AND0EeyhVr5EEfl8yQ"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_CcYhYND0EeyhVr5EEfl8yQ" name="arrayOfAllFetchedButtonsFromGrid" type="_CZu2AND0EeyhVr5EEfl8yQ">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CcZIcND0EeyhVr5EEfl8yQ"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CcZvgND0EeyhVr5EEfl8yQ" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_CccLwND0EeyhVr5EEfl8yQ" name="checkWinDiaglonals" visibility="private" method="_CcgdMND0EeyhVr5EEfl8yQ">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_CcdZ4ND0EeyhVr5EEfl8yQ" name="buttonClicked" type="_CZu2AND0EeyhVr5EEfl8yQ"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_CceoAND0EeyhVr5EEfl8yQ" name="arrayOfAllFetchedButtonsFromGrid" type="_CZu2AND0EeyhVr5EEfl8yQ">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CcfPEND0EeyhVr5EEfl8yQ"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ccf2IND0EeyhVr5EEfl8yQ" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_CciSYND0EeyhVr5EEfl8yQ" name="changeBackgroundColor" visibility="private" method="_CclVsND0EeyhVr5EEfl8yQ">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_Cci5cND0EeyhVr5EEfl8yQ" name="winStreakButtonOne" type="_CZu2AND0EeyhVr5EEfl8yQ"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_CcjggND0EeyhVr5EEfl8yQ" name="winStreakButtonTwo" type="_CZu2AND0EeyhVr5EEfl8yQ"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_CckuoND0EeyhVr5EEfl8yQ" name="winStreakButtonThree" type="_CZu2AND0EeyhVr5EEfl8yQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_CcnK4ND0EeyhVr5EEfl8yQ" name="gameOver" visibility="private" method="_CcpAEND0EeyhVr5EEfl8yQ">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_CcoZAND0EeyhVr5EEfl8yQ" name="outcomeMessage" type="_Cb9qoND0EeyhVr5EEfl8yQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_aeQJgND1EeyhVr5EEfl8yQ" name="Operation18"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_CcDKMND0EeyhVr5EEfl8yQ" name="TicTacToe" visibility="public">
+        <generalization xmi:type="uml:Generalization" xmi:id="_CdPdAND0EeyhVr5EEfl8yQ" general="_CWU8sND0EeyhVr5EEfl8yQ"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_CdUVgND0EeyhVr5EEfl8yQ" name="detectWin" visibility="private" type="_Cb5ZMND0EeyhVr5EEfl8yQ" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_CdVjoND0EeyhVr5EEfl8yQ" name="gameBoard" visibility="private" type="_CaPMUND0EeyhVr5EEfl8yQ" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_CdWxwND0EeyhVr5EEfl8yQ" name="buttonClicked" visibility="private" type="_CZu2AND0EeyhVr5EEfl8yQ" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_CdXY0ND0EeyhVr5EEfl8yQ" name="pieceSymbol" visibility="private" isStatic="true" type="_CcsDYND0EeyhVr5EEfl8yQ" isUnique="false">
+          <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_CdZOAND0EeyhVr5EEfl8yQ" name="defaultValue">
+            <language>JAVA</language>
+            <body>'O'</body>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_CdZOAdD0EeyhVr5EEfl8yQ" name="pieceOne" visibility="private" type="_Ccq1QND0EeyhVr5EEfl8yQ" isUnique="false">
+          <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_CdZ1END0EeyhVr5EEfl8yQ" name="defaultValue">
+            <language>JAVA</language>
+            <body>PieceOne.getInstance()</body>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_CdbDMND0EeyhVr5EEfl8yQ" name="pieceTwo" visibility="private" type="_Ccq1QND0EeyhVr5EEfl8yQ" isUnique="false">
+          <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_CdbqQND0EeyhVr5EEfl8yQ" name="defaultValue">
+            <language>JAVA</language>
+            <body>PieceTwo.getInstance()</body>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Cdc4YND0EeyhVr5EEfl8yQ" name="arrayOfAllFetchedButtonsFromGrid" visibility="private" type="_CZu2AND0EeyhVr5EEfl8yQ" isUnique="false">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CdeGgND0EeyhVr5EEfl8yQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CdeGgdD0EeyhVr5EEfl8yQ" value="*"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CdTHYtD0EeyhVr5EEfl8yQ" name="main" specification="_CdQrIND0EeyhVr5EEfl8yQ">
+          <language>JAVA</language>
+          <body>&#xD;
+    new TicTacToe();&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Cdhw4ND0EeyhVr5EEfl8yQ" name="TicTacToe" specification="_CdetkND0EeyhVr5EEfl8yQ">
+          <language>JAVA</language>
+          <body>&#xD;
+    detectWin = new DetectWin();&#xD;
+    gameBoard = Board.getInstance(this);&#xD;
+    arrayOfAllFetchedButtonsFromGrid = gameBoard.getGrid();&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Cdk0MND0EeyhVr5EEfl8yQ" name="actionPerformed" specification="_Cdi_AND0EeyhVr5EEfl8yQ">
+          <language>JAVA</language>
+          <body>&#xD;
+    buttonClicked = (JButton) e.getSource();&#xD;
+    buttonClicked.setText(String.valueOf(pieceSymbol));&#xD;
+    // If the piece played was X, then switch to O&#xD;
+    if (pieceSymbol == pieceTwo.getPieceSymbol('X')) {&#xD;
+        pieceSymbol = pieceOne.getPieceSymbol('O');&#xD;
+    } else // If the piece played wasn't X (is O), then piece X should be played next&#xD;
+    {&#xD;
+        pieceSymbol = pieceTwo.getPieceSymbol('X');&#xD;
+    }&#xD;
+    // Check if the added piece resulted in a win&#xD;
+    detectWin.checkForWin(buttonClicked, arrayOfAllFetchedButtonsFromGrid);&#xD;
+    // Remove the ActionListener from the pressed button&#xD;
+    buttonClicked.removeActionListener(this);&#xD;
+</body>
+        </ownedBehavior>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_CdQrIND0EeyhVr5EEfl8yQ" name="main" visibility="public" isStatic="true" method="_CdTHYtD0EeyhVr5EEfl8yQ">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_CdSgUND0EeyhVr5EEfl8yQ" name="args" type="_Cb9qoND0EeyhVr5EEfl8yQ">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CdTHYND0EeyhVr5EEfl8yQ"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CdTHYdD0EeyhVr5EEfl8yQ" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_CdetkND0EeyhVr5EEfl8yQ" name="TicTacToe" visibility="public" method="_Cdhw4ND0EeyhVr5EEfl8yQ"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_Cdi_AND0EeyhVr5EEfl8yQ" name="actionPerformed" visibility="public" method="_Cdk0MND0EeyhVr5EEfl8yQ">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_CdjmEND0EeyhVr5EEfl8yQ" name="e" type="_CbphkND0EeyhVr5EEfl8yQ"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_Ccq1QND0EeyhVr5EEfl8yQ" name="Piece" visibility="public">
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_CcsqcND0EeyhVr5EEfl8yQ" name="getPieceSymbol" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_CctRgND0EeyhVr5EEfl8yQ" type="_CcsDYND0EeyhVr5EEfl8yQ" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_Cct4kND0EeyhVr5EEfl8yQ" name="symbol" type="_CcsDYND0EeyhVr5EEfl8yQ"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_CcvtwND0EeyhVr5EEfl8yQ" name="PieceOne" visibility="public">
+        <generalization xmi:type="uml:Generalization" xmi:id="_rjTMoND6EeyhVr5EEfl8yQ" general="_Ccq1QND0EeyhVr5EEfl8yQ"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Ccw74ND0EeyhVr5EEfl8yQ" name="instance" visibility="private" isStatic="true" type="_CcvtwND0EeyhVr5EEfl8yQ" isUnique="false">
+          <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_Ccxi8ND0EeyhVr5EEfl8yQ" name="defaultValue">
+            <language>JAVA</language>
+            <body>null</body>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_CcyxEND0EeyhVr5EEfl8yQ" name="str" visibility="public" type="_Cb9qoND0EeyhVr5EEfl8yQ" isUnique="false"/>
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_CcvtwdD0EeyhVr5EEfl8yQ" name="PieceOne implements Piece" client="_CcvtwND0EeyhVr5EEfl8yQ" supplier="_Ccq1QND0EeyhVr5EEfl8yQ" contract="_Ccq1QND0EeyhVr5EEfl8yQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Cc10YND0EeyhVr5EEfl8yQ" name="getPieceSymbol" specification="_Ccz_MND0EeyhVr5EEfl8yQ">
+          <language>JAVA</language>
+          <body>&#xD;
+    return symbol;&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Cc6s4ND0EeyhVr5EEfl8yQ" name="PieceOne" specification="_Cc3CgND0EeyhVr5EEfl8yQ">
+          <language>JAVA</language>
+          <body>&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Cc9JIND0EeyhVr5EEfl8yQ" name="getInstance" specification="_Cc77AND0EeyhVr5EEfl8yQ">
+          <language>JAVA</language>
+          <body>&#xD;
+    if (instance == null) {&#xD;
+        instance = new PieceOne();&#xD;
+    }&#xD;
+    return instance;&#xD;
+</body>
+        </ownedBehavior>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_Ccz_MND0EeyhVr5EEfl8yQ" name="getPieceSymbol" visibility="public" method="_Cc10YND0EeyhVr5EEfl8yQ">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_Cc0mQND0EeyhVr5EEfl8yQ" type="_CcsDYND0EeyhVr5EEfl8yQ" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_Cc1NUND0EeyhVr5EEfl8yQ" name="symbol" type="_CcsDYND0EeyhVr5EEfl8yQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_Cc3CgND0EeyhVr5EEfl8yQ" name="PieceOne" visibility="private" method="_Cc6s4ND0EeyhVr5EEfl8yQ"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_Cc77AND0EeyhVr5EEfl8yQ" name="getInstance" visibility="public" isStatic="true" method="_Cc9JIND0EeyhVr5EEfl8yQ">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_Cc8iEND0EeyhVr5EEfl8yQ" type="_CcvtwND0EeyhVr5EEfl8yQ" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Cc--UND0EeyhVr5EEfl8yQ" name="PieceTwo" visibility="public">
+        <generalization xmi:type="uml:Generalization" xmi:id="_ogb4kND6EeyhVr5EEfl8yQ" general="_Ccq1QND0EeyhVr5EEfl8yQ"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_CdAMcND0EeyhVr5EEfl8yQ" name="instance" visibility="private" isStatic="true" type="_Cc--UND0EeyhVr5EEfl8yQ" isUnique="false">
+          <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_CdBakND0EeyhVr5EEfl8yQ" name="defaultValue">
+            <language>JAVA</language>
+            <body>null</body>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_CdCBoND0EeyhVr5EEfl8yQ" name="str" visibility="public" type="_Cb9qoND0EeyhVr5EEfl8yQ" isUnique="false"/>
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_Cc_lYND0EeyhVr5EEfl8yQ" name="PieceTwo implements Piece" client="_Cc--UND0EeyhVr5EEfl8yQ" supplier="_Ccq1QND0EeyhVr5EEfl8yQ" contract="_Ccq1QND0EeyhVr5EEfl8yQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CdEd4ND0EeyhVr5EEfl8yQ" name="getPieceSymbol" specification="_CdDPwND0EeyhVr5EEfl8yQ">
+          <language>JAVA</language>
+          <body>&#xD;
+    return symbol;&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CdJ9cND0EeyhVr5EEfl8yQ" name="PieceTwo" specification="_CdGTEND0EeyhVr5EEfl8yQ">
+          <language>JAVA</language>
+          <body>&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_CdMZsND0EeyhVr5EEfl8yQ" name="getInstance" specification="_CdKkgND0EeyhVr5EEfl8yQ">
+          <language>JAVA</language>
+          <body>&#xD;
+    if (instance == null) {&#xD;
+        instance = new PieceTwo();&#xD;
+    }&#xD;
+    return instance;&#xD;
+</body>
+        </ownedBehavior>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_CdDPwND0EeyhVr5EEfl8yQ" name="getPieceSymbol" visibility="public" method="_CdEd4ND0EeyhVr5EEfl8yQ">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_CdD20ND0EeyhVr5EEfl8yQ" type="_CcsDYND0EeyhVr5EEfl8yQ" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_CdD20dD0EeyhVr5EEfl8yQ" name="symbol" type="_CcsDYND0EeyhVr5EEfl8yQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_CdGTEND0EeyhVr5EEfl8yQ" name="PieceTwo" visibility="private" method="_CdJ9cND0EeyhVr5EEfl8yQ"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_CdKkgND0EeyhVr5EEfl8yQ" name="getInstance" visibility="public" isStatic="true" method="_CdMZsND0EeyhVr5EEfl8yQ">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_CdLLkND0EeyhVr5EEfl8yQ" type="_Cc--UND0EeyhVr5EEfl8yQ" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_CWSgcND0EeyhVr5EEfl8yQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_CWTHgND0EeyhVr5EEfl8yQ" name="java">
+        <packagedElement xmi:type="uml:Package" xmi:id="_CWTukND0EeyhVr5EEfl8yQ" name="awt">
+          <packagedElement xmi:type="uml:Package" xmi:id="_CWUVoND0EeyhVr5EEfl8yQ" name="event">
+            <packagedElement xmi:type="uml:Class" xmi:id="_CWU8sND0EeyhVr5EEfl8yQ" name="ActionListener"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_CbphkND0EeyhVr5EEfl8yQ" name="ActionEvent"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_Cb9DkND0EeyhVr5EEfl8yQ" name="lang">
+          <packagedElement xmi:type="uml:Class" xmi:id="_Cb9qoND0EeyhVr5EEfl8yQ" name="String"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_CZtA0ND0EeyhVr5EEfl8yQ" name="importedTypes">
+      <packagedElement xmi:type="uml:Package" xmi:id="_CZtn4ND0EeyhVr5EEfl8yQ" name="javax">
+        <packagedElement xmi:type="uml:Package" xmi:id="_CZuO8ND0EeyhVr5EEfl8yQ" name="swing">
+          <packagedElement xmi:type="uml:Class" xmi:id="_CZu2AND0EeyhVr5EEfl8yQ" name="JButton"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_CaCYAND0EeyhVr5EEfl8yQ" name="JFrame"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_CaJFsND0EeyhVr5EEfl8yQ" name="JPanel"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Cao08ND0EeyhVr5EEfl8yQ" name="primitivetype">
+        <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_CapcAND0EeyhVr5EEfl8yQ" name="Long"/>
+        <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_Cb6nUND0EeyhVr5EEfl8yQ" name="Boolean"/>
+        <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_CcsDYND0EeyhVr5EEfl8yQ" name="Char"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_03TuoND6EeyhVr5EEfl8yQ" memberEnd="_03bDYND6EeyhVr5EEfl8yQ _03cRgND6EeyhVr5EEfl8yQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_03YAEND6EeyhVr5EEfl8yQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_03YnIND6EeyhVr5EEfl8yQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_03bDYND6EeyhVr5EEfl8yQ" name="piece" type="_Ccq1QND0EeyhVr5EEfl8yQ" association="_03TuoND6EeyhVr5EEfl8yQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_03cRgND6EeyhVr5EEfl8yQ" name="board" type="_CaPMUND0EeyhVr5EEfl8yQ" association="_03TuoND6EeyhVr5EEfl8yQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_6FN98ND6EeyhVr5EEfl8yQ" memberEnd="_6FPMEdD6EeyhVr5EEfl8yQ _6FPzIND6EeyhVr5EEfl8yQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6FOlAND6EeyhVr5EEfl8yQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6FPMEND6EeyhVr5EEfl8yQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_6FPMEdD6EeyhVr5EEfl8yQ" name="board" type="_CaPMUND0EeyhVr5EEfl8yQ" association="_6FN98ND6EeyhVr5EEfl8yQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_6FPzIND6EeyhVr5EEfl8yQ" name="tictactoe" type="_CcDKMND0EeyhVr5EEfl8yQ" association="_6FN98ND6EeyhVr5EEfl8yQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_8KNUgND6EeyhVr5EEfl8yQ" memberEnd="_8KOiotD6EeyhVr5EEfl8yQ _8KPwwND6EeyhVr5EEfl8yQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8KOioND6EeyhVr5EEfl8yQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8KOiodD6EeyhVr5EEfl8yQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_8KOiotD6EeyhVr5EEfl8yQ" name="tictactoe" type="_CcDKMND0EeyhVr5EEfl8yQ" association="_8KNUgND6EeyhVr5EEfl8yQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_8KPwwND6EeyhVr5EEfl8yQ" name="detectwin" type="_Cb5ZMND0EeyhVr5EEfl8yQ" association="_8KNUgND6EeyhVr5EEfl8yQ"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_CUi0AND0EeyhVr5EEfl8yQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CUmeYND0EeyhVr5EEfl8yQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/PapyrusJava/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PapyrusJava_PROFILES/PapyrusJava.profile.uml#_j9REUByGEduN1bTiWJ0lyw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_CVOwgND0EeyhVr5EEfl8yQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CVP-oND0EeyhVr5EEfl8yQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/Codegen/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Codegen_PROFILES/Codegen.profile.uml#_fPDsIBa-EearhdjjJ6cVzQ"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_CVZvoND0EeyhVr5EEfl8yQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CVaWsND0EeyhVr5EEfl8yQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <PapyrusJava:External xmi:id="_CZpWcND0EeyhVr5EEfl8yQ" name="java.awt.event.ActionListener" base_Classifier="_CWU8sND0EeyhVr5EEfl8yQ"/>
+  <PapyrusJava:External xmi:id="_CZygYND0EeyhVr5EEfl8yQ" name="javax.swing.JButton" base_Classifier="_CZu2AND0EeyhVr5EEfl8yQ"/>
+  <PapyrusJava:External xmi:id="_CaFbUND0EeyhVr5EEfl8yQ" name="javax.swing.JFrame" base_Classifier="_CaCYAND0EeyhVr5EEfl8yQ"/>
+  <PapyrusJava:External xmi:id="_CaMJAND0EeyhVr5EEfl8yQ" name="javax.swing.JPanel" base_Classifier="_CaJFsND0EeyhVr5EEfl8yQ"/>
+  <PapyrusJava:External xmi:id="_CaSPoND0EeyhVr5EEfl8yQ" name="BoardInterface" base_Classifier="_CWNA4ND0EeyhVr5EEfl8yQ"/>
+  <standard:Create xmi:id="_CbE50ND0EeyhVr5EEfl8yQ" base_BehavioralFeature="_CbBPcND0EeyhVr5EEfl8yQ"/>
+  <PapyrusJava:External xmi:id="_Cbsk4ND0EeyhVr5EEfl8yQ" name="java.awt.event.ActionEvent" base_Classifier="_CbphkND0EeyhVr5EEfl8yQ"/>
+  <PapyrusJava:External xmi:id="_CcAG4ND0EeyhVr5EEfl8yQ" name="java.lang.String" base_Classifier="_Cb9qoND0EeyhVr5EEfl8yQ"/>
+  <standard:Create xmi:id="_Cc43sND0EeyhVr5EEfl8yQ" base_BehavioralFeature="_Cc3CgND0EeyhVr5EEfl8yQ"/>
+  <standard:Create xmi:id="_CdIIQND0EeyhVr5EEfl8yQ" base_BehavioralFeature="_CdGTEND0EeyhVr5EEfl8yQ"/>
+  <standard:Create xmi:id="_Cdf7sND0EeyhVr5EEfl8yQ" base_BehavioralFeature="_CdetkND0EeyhVr5EEfl8yQ"/>
+</xmi:XMI>
